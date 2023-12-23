@@ -7,7 +7,9 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+body{
+  background-color: #000;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -16,12 +18,65 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+h3{
+  color: #DEE1E6;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.active-btn {
+    background-color: #E41B26;
+    color: #D9D9D9;
+
+}
+
+.filter-apply{
+  filter: invert(26%) sepia(98%) saturate(5097%) hue-rotate(347deg) brightness(89%) contrast(100%)
+}
+.icon-change:hover{
+  filter: invert(80%) sepia(98%) saturate(2550%) hue-rotate(347deg) brightness(90%) contrast(102%);
+}
+.text-change:hover{
+  color:#E82622;
+  opacity: 0.7;
+}
+@supports (-webkit-text-stroke: 0.5px black) {
+  .second-heading {
+    -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: black;
+    opacity: 0.5;
+  }
+}
+/* custom cursor */
+.custom-cursor {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  background-color: #E82622; /* Change the color as needed */
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 100; /* Ensure the cursor appears above other elements */
+  opacity: 0.6;
+  box-shadow:  10px 10px 80px #E82622, 
+             -10px -10px 80px #E82622;
+  /* transform: translate(-50%, -50%); */
+  
+}
+
