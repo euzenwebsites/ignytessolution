@@ -4,6 +4,8 @@ import Image from 'next/image'
 import facebookIcon from "../../../public/icon/facebook.png"
 import linkedinIcon from "../../../public/icon/linkedin.png"
 import twitterIcon from "../../../public/icon/twitter.png"
+import instagramIcon from "../../../public/icon/instagram.png"
+
 
 
 const SocialSec = () => {
@@ -24,23 +26,23 @@ const SocialSec = () => {
                 <Link href="mailto:inquiry@ignytessolution.com">inquiry@ignytessolution.com</Link>
             </div>
             <div className='sm:col-span-2'>
-            <h3 className='font-extrabold text-base uppercase mb-4 '>THE WEB</h3>
-                <div className='flex font-medium gap-10'>
+            <h3 className='font-extrabold text-base uppercase mb-4 '>Social sites</h3>
+                <div className='grid grid-cols-2 sm:grid-cols-4  font-medium gap-10'>
                     <div className='flex flex-row items-center'>
                         <Image src={twitterIcon} alt='twitter icon' height={16}/>
-                        <Link href="/" className='hover:text-red ml-2'>Twitter</Link>
+                        <Link href="https://twitter.com/Ignytessolution" target='_blank' className='hover:text-red ml-2'>Twitter</Link>
                     </div>
                     <div className='flex flex-row items-center'>
                         <Image src={facebookIcon} alt='Facebook icon' height={16}/>
-                        <Link href="/" className='hover:text-red ml-2'>Facebook</Link>
+                        <Link href="https://www.facebook.com/profile.php?id=61551594675574" target='_blank' className='hover:text-red ml-2'>Facebook</Link>
                     </div>
                     <div className='flex flex-row items-center'>
                         <Image src={linkedinIcon} alt='Linkedin icon' height={16}/>
-                        <Link href="/" className='hover:text-red ml-2'>Linkedin</Link>
+                        <Link href="https://www.linkedin.com/company/ignytes-solutions/" target='_blank' className='hover:text-red ml-2'>Linkedin</Link>
                     </div>
                     <div className='flex flex-row items-center'>
-                        <Image src={linkedinIcon} alt='Instagram icon' height={16}/>
-                        <Link href="/" className='hover:text-red ml-2'>Instagram</Link>
+                        <Image src={instagramIcon} alt='Instagram icon' height={16}/>
+                        <Link href="https://www.instagram.com/ignytes_solutions/" target='_blank' className='hover:text-red ml-2'>Instagram</Link>
                     </div>
                     
                    

@@ -52,7 +52,7 @@ a {
 .mobile-menu-toggle {
   display: none;
   cursor: pointer;
-}
+}  
 
 @media screen and (max-width: 768px) {
   .menu-container {

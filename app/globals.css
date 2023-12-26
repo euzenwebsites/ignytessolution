@@ -9,6 +9,7 @@
 }
 body{
   background-color: #000;
+  
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -60,7 +61,7 @@ h3{
 @supports (-webkit-text-stroke: 0.5px black) {
   .second-heading {
     -webkit-text-stroke: 0.5px white;
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: transparent;
     opacity: 0.5;
   }
 }

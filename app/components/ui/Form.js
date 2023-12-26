@@ -1,7 +1,7 @@
 "use client"
 import { useForm } from "react-hook-form";
 
-const Form = () => {
+const Form = () => { 
   const {
     register,
     handleSubmit,
@@ -74,8 +74,8 @@ const Form = () => {
       </div>
       <button
         type="submit"
-        className='w-[120px] h-[120px] mt-8 p-10 uppercase text-xs font-semibold  rounded-full border-2 border-dashed hover:rotate-360'
->Submit
+        className='w-[120px] h-[120px] mt-8 p-10 uppercase text-xs font-semibold  rounded-full border-2 border-dashed hover:rotate-360 text-[#fff]'>
+          Submit
       </button>
     </form>
   );
