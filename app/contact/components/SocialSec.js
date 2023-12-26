@@ -13,7 +13,7 @@ const SocialSec = () => {
     <section className='h-full w-[100%] flex justify-center mt-20 mb-20  sm:mt-36 sm:mb-28'>
      <div className='w-[80%] flex flex-col text-[#fff]  '>
         <div>
-        <h3 className='font-extrabold text-base uppercase mb-10 text-center '>THE INFO</h3>
+        <h3 className='font-extrabold text-base uppercase mb-10 text-center  '>THE INFO</h3>
         <h1 className='font-bold text-2xl sm:text-4xl '>Send us a note with any questions, or simply contact us using the <span className='second-heading'> information below.</span> </h1>
         </div>
         <div className='grid max-sm:grid-cols-1 grid-cols-4 mt-10 mb-10 sm:mt-36 sm:mb-24 gap-10 sm:gap-40'>

@@ -39,7 +39,7 @@ const PortfolioContainer = (props) => {
         </SwiperSlide> 
       </Swiper>
       </div>
-          <h3 className='text-5xl font-semibold mt-2'>UI/UX Design</h3>
+          <h3 className='text-3xl font-semibold mt-2 uppercase'>{props.title}</h3>
     </div>
   </div>
 </section>
