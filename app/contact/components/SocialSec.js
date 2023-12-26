@@ -38,6 +38,10 @@ const SocialSec = () => {
                         <Image src={linkedinIcon} alt='Linkedin icon' height={16}/>
                         <Link href="/" className='hover:text-red ml-2'>Linkedin</Link>
                     </div>
+                    <div className='flex flex-row items-center'>
+                        <Image src={linkedinIcon} alt='Instagram icon' height={16}/>
+                        <Link href="/" className='hover:text-red ml-2'>Instagram</Link>
+                    </div>
                     
                    
 

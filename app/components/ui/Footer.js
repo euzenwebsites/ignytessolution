@@ -22,11 +22,12 @@ const Footer = () => {
       <div className="text-[#fff] ">
         <ul className="flex flex-col gap-4">
         <li className="font-bold " >Social</li>
-            <li ><Link href='https://www.facebook.com/profile.php?id=61551752947120' target="_blank" > Facebook</Link></li>
-            <li ><Link href="https://twitter.com/ignytestech" target="_blank" >Twitter</Link></li>
-            <li ><Link href="https://www.linkedin.com/company/ignytes-tech/" target="_blank" >linkedin</Link></li>
+            <li ><Link href='https://www.facebook.com/profile.php?id=61551594675574' target="_blank" > Facebook</Link></li>
+            <li ><Link href="https://twitter.com/Ignytessolution" target="_blank" >Twitter</Link></li>
+            <li ><Link href="https://www.instagram.com/ignytes_solutions/" target="_blank" >Instagram</Link></li>
+            <li ><Link href="https://www.linkedin.com/company/ignytes-solutions/" target="_blank" >linkedin</Link></li>
           
-
+ 
         </ul>
       </div>
       <div>

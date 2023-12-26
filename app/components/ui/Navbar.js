@@ -4,7 +4,7 @@ import NavbarItems from "./NavbarItems";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
-  const [isToggled, setToggle] = useState(false);
+  const [isToggled, setToggle] = useState(false);  
 
   const navContainer = {
     visible: {

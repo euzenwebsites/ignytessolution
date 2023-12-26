@@ -4,7 +4,7 @@ import vector1 from "../../../public/Vector1.png"
 const PortfolioHero = () => {
   return (
     <section className=' h-full w-[100%] flex justify-center pb-10 '>
-        <div className='absolute left-0 top-0 '>
+        <div className='absolute left-0 top-20 '>
             <Image src={vector1} height={800} width={500}  alt='vector' style={{height:"30%",width:"90%"}}/></div>
 
     <div className='w-[80%] flex flex-col justify-center items-center'>  

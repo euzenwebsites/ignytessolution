@@ -76,7 +76,7 @@ const ServiceAccordion = () => {
     <AccordionPanel pb={40} pt={40}>
     We increase your online presence by improving visibility and organic 
     reach through intelligent SEO tactics. Our specialized techniques promote long-term success in competitive digital environments by improving your 
-    website's ranks and promoting sustainable growth.
+    website&apos;s ranks and promoting sustainable growth.
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
