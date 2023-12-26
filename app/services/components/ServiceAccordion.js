@@ -14,7 +14,7 @@ import {
 import VectorRight from '@/app/components/ui/VectorRight';
 
 const ServiceAccordion = () => {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+  // gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 // create the smooth scroller FIRST!
 // let smoother = ScrollSmoother.create({

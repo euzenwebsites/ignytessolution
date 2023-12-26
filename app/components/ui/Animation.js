@@ -39,8 +39,8 @@ const Animation = () => {
   
   return (
     <section className='h-full'>
-      <div>
-        <div className={`w-20 z-100  flex justify-center items-center absolute left-[15%] sm:left-[19%]  top-0 overflow:hidden `} style={{height:`${pageHeight}px`}}>
+      <div className='w-[80%] grid grid-cols-3'>
+        <div className={`w-10 z-100  flex justify-center items-center absolute left-[20%] sm:left-[20%]  top-0 overflow:hidden `} style={{height:`${pageHeight}px`}}>
         <div className={`w-[0.5px] opacity-20  z-100  bg-[#E3E3E3]  top-0 overflow:hidden z-900`} style={{height:`${pageHeight}px`}}></div>
         <div className='box1 absolute top-0 z-500'>
             <span className="relative flex h-4 w-4">
@@ -60,7 +60,7 @@ const Animation = () => {
           </div>
         </div>
 
-        <div className={`w-10 z-100  flex justify-center items-center absolute left-[65%] sm:left-[77%]  top-0 overflow:hidden `} style={{height:`${pageHeight}px`}}>
+        <div className={`w-10 z-100  flex justify-center items-center absolute left-[70%] sm:left-[77%]  top-0 overflow:hidden `} style={{height:`${pageHeight}px`}}>
         <div className={`w-[0.5px] opacity-20  z-100  bg-[#E3E3E3]  top-0 overflow:hidden z-900`} style={{height:`${pageHeight}px`}}></div>
         <div className='box3 absolute top-0 z-500'>
             <span className="relative flex h-4 w-4">

@@ -5,6 +5,7 @@ const Form = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
@@ -19,7 +20,8 @@ const Form = () => {
       });
 
       if (response.ok) {
-        // Handle success (e.g., show a success message)
+        reset();
+        window.location.reload();
         console.log('Email sent successfully');
       } else {
         // Handle failure (e.g., show an error message)

@@ -19,7 +19,7 @@ const Button = () => {
         );
       }, []);
   return (
-    <div className=' rounded-full border-2 border-white border-dashed button-ani p-20 '>
+    <div className=' rounded-full border-2 border-white border-dashed button-ani p-20 max-sm:hidden'>
                 <Image src={playbtn} alt='play button ' height={50} width={50}
                  />
     </div>

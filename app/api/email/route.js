@@ -4,17 +4,17 @@ export async function POST(req,res){
   let nodemailer = require('nodemailer')
   const transporter = nodemailer.createTransport({
     port:465,
-    host:"ignytessoft.com",
+    host:"smtp.gmail.com",
     auth:{
-      user:'info@ignytessoft.com',
-      pass:'ignytestech123',
+      user:'euzensolutions1@gmail.com',
+      pass:'uflz ijyk zorr ccps',
 
     },
     secure:true,
   })
-  const mailData = {
+  const mailData = {   
     from: `${data.email}`,
-    to: 'info@ignytessoft.com',
+    to: 'inquiry@ignytessolutions.com',
     subject: "New Customer",
     text: " | Sent from: " + data.name + " | Email: " + data.email,
     html: `<div>Name: <h4>${data.name}</h4></div><p>Sent from:
@@ -22,7 +22,8 @@ export async function POST(req,res){
   }
   transporter.sendMail(mailData, function (err, info) {
     if(err)
-      console.log(err)
+      {console.log(err)
+      console.log("error is raised")}
     else
       console.log(info)
   })

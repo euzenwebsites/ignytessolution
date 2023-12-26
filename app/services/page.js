@@ -20,11 +20,13 @@ const page = () => {
       description = "Our services are designed to help your organization achieve long-term success and growth through a combination of creativity and experience."
       heading="the services"
       
+      
       />
       <ServiceSection
       service="Web design & Developemnt"
       description="Well-designed web development solutions that are customized to meet your demands and display a wide range of work that highlights creativity, adaptability, and customer success."
       image={SerWeb}
+      
       />
       
       <ServiceSecRight
