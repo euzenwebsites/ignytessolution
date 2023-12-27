@@ -67,13 +67,44 @@ const Pricing = (props) => {
                 <li className="flex gap-2 justify-center">
             
                 <p>{props.item13}</p></li>
+
                 <li className="flex gap-2 justify-center">
-            
                 <p>{props.item14}</p></li>
+
                 <li className="flex gap-2 justify-center">
-            
                 <p>{props.item15}</p></li>
-               
+
+                <li className="flex gap-2 justify-center">
+                <p>{props.item16}</p></li>
+                
+                <li className="flex gap-2 justify-center">
+                <p>{props.item17}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item18}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item19}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item20}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item21}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item22}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item23}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item24}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item25}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item26}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item27}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item28}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item29}</p></li>
+                <li className="flex gap-2 justify-center">
+                <p>{props.item30}</p></li>
             </ul>
             <button className="text-[#fff] bg-[#E41B26] p-4 hover:bg-[#000] hover:text-[#fff]" 
             onClick={openModal}>Get Started</button>

@@ -20,45 +20,109 @@ const SEOPricing = () => {
     <div className="flex flex-row max-sm:flex-col gap-8 justify-center mt-6 relative mb-20">
             <PricingTestimonial
                 package={"Pro"}
-                price={"$600"}
+                price={"$3500"}
                 color={"#D9D9D9"}
 
-                item1={"Prior Analysis"}
-               item2={"Business Analysis"}
+                item1={"Prior Analysis "}
+               item2={"Business Analysis "}
                item3={"Consumer Analysis"}
-               item4={"Competitor Analysis"}
-               item5={"Selected Keywords Targeting"}
-               item6={"Pages Keyword Targeted"}
-               item7={"Webpage Optimization"}
+               item4={"15 selected Keywords Targeting"}
+               item5={"15 Pages Keywords Targeting"}
+               item6={"Webpage Optimization"}
+               item7={"Meta Tags Creation "}
+               item8={"Keyword Optimization"}
+               item9={"Image Optimization"}
+               item10={"Inclusion of Anchors "}
+               item11={"Tracking & Amp, Analysis "}
+               item12={"Google Analytics Installation"}
+               item13={"Google Webmaster Installation"}
+               item14={"Call to Action Plan "}
+               item15={"Creation of Sitemaps "}
+               itme16={"Monthly Reporting"}
+               itme17={"Recommendation "}
+               itme18={"Email Support"}
+               itme19={"Phone Support"}
+               itme20={"Off Page Optimization"}
+               itme21={"Social Bookmarking"}
+               itme22={"Slide Share Marketing"}
+               item23={'Forums/ FAQ`S'}
+               item24={"Link Building"}
+               item25={"Directory Submission"}
+               item26={"Local Business Listings"}
+
+
+               
               
                 
             />
             <PricingTestimonial
                 package={"PREMIUM"}
-                price={"$900"}
+                price={"$5000"}
                color={"#D9D9D9"}
 
-               item1={"Prior Analysis"}
-               item2={"Consumer Analysis"}
-               item3={"Competitor Analysis"}
-               item4={"30 Selected Keywords Targeting"}
-               item5={"30 Pages Keyword Targeted"}
+               item1={"Prior Analysis "}
+               item2={"Business Analysis "}
+               item3={"Consumer Analysis"}
+               item4={"30 selected Keywords Targeting"}
+               item5={"30 Pages Keywords Targeting"}
                item6={"Webpage Optimization"}
-               item7={"Meta Tags Creation"}
+               item7={"Meta Tags Creation "}
+               item8={"Keyword Optimization"}
+               item9={"Image Optimization"}
+               item10={"Inclusion of Anchors "}
+               item11={"Tracking & Amp, Analysis "}
+               item12={"Google Analytics Installation"}
+               item13={"Google Webmaster Installation"}
+               item14={"Call to Action Plan "}
+               item15={"Creation of Sitemaps "}
+               itme16={"Monthly Reporting"}
+               itme17={"Recommendation "}
+               itme18={"Email Support"}
+               itme19={"Phone Support"}
+               itme20={"Off Page Optimization"}
+               itme21={"Social Bookmarking"}
+               itme22={"Slide Share Marketing"}
+               item23={'Forums/ FAQ`S'}
+               item24={"Link Building"}
+               item25={"Directory Submission"}
+               item26={"Local Business Listings"}
+
                
            />
            <PricingTestimonial
                 package={"ENTERPRISE"}
-                price={"$1200"}
+                price={"$7500"}
                color={"#D9D9D9"}
 
-               item1={"Prior Analysis"}
-               item2={"Business Analysis"}
+               item1={"Prior Analysis "}
+               item2={"Business Analysis "}
                item3={"Consumer Analysis"}
-               item4={"Competitor Analysis"}
-               item5={"70 Selected Keywords Targeting"}
-               item6={"50 Pages Keyword Targeted"}
-               item7={"Webpage Optimization"}
+               item4={"70 selected Keywords Targeting"}
+               item5={"50 Pages Keywords Targeting"}
+               item6={"Webpage Optimization"}
+               item7={"Meta Tags Creation "}
+               item8={"Keyword Optimization"}
+               item9={"Image Optimization"}
+               item10={"Inclusion of Anchors "}
+               item11={"Tracking & Amp, Analysis "}
+               item12={"Google Analytics Installation"}
+               item13={"Google Webmaster Installation"}
+               item14={"Call to Action Plan "}
+               item15={"Creation of Sitemaps "}
+               itme16={"Monthly Reporting"}
+               itme17={"Recommendation "}
+               itme18={"Email Support"}
+               itme19={"Phone Support"}
+               itme20={"Off Page Optimization"}
+               itme21={"Social Bookmarking"}
+               itme22={"Slide Share Marketing"}
+               item23={'Forums/ FAQ`S'}
+               item24={"Link Building"}
+               item25={"Directory Submission"}
+               item26={"Local Business Listings"}
+               item27={"Blog Content Creation"}
+               item28={"Local SEO"}
+
                
            />
             

@@ -13,8 +13,7 @@ import { useState } from "react";
 import "../globals.css"
 
 const contentItems = {
-  "Website Development": <WebPricing />,
-  "Website Designing": <WebDesPricing />,
+  "Website Development": <WebDesPricing />,
   "SEO": <SEOPricing />,
   "Mobile App Development": <MobilePricing />,
   "Logo Designing": <LogoPricing />,

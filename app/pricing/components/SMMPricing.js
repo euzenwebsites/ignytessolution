@@ -37,14 +37,14 @@ const SMMPricing = () => {
                 price={"$1500"}
                color={"#D9D9D9"}
                slogan={"Business plan"}
-
                item1={"3 platforms of your choice"}
                item2={"5 posts per week"}
-               item3={"community management"}
-               item4={"business page optimization"}
-               item5={"monthly progress report"}
-               item6={"copy writing"}
-               item7={"likes campaign"}
+               item3={"Business Page Optimization"}
+               item4={"Content Creation "}
+               item5={"Community Management"}
+               item6={"Monthly Progress Report"}
+               item7={"Copy Writing "}
+               item8={"Likes campaign"}
                
            />
            <PricingTestimonial
@@ -56,16 +56,15 @@ const SMMPricing = () => {
                item1={"4 platforms of your choice"}
                item2={"7 posts per week"}
                item3={"copywriting & visual design"}
-               item4={"business page optimization"}
-               item5={"business page optimization"}
-               item6={"ad campaign management"}
-               item7={"spam monitoring"}
-               item9={"monthly progress report"}
-               item10={"reputation management"}
-               item11={"social account setup"}
-               item12={"content creation"}
-               item13={"social media hearing"}
-               item14={"query and comments reply"}
+               item4={"Business page optimization"}
+               item5={"Ad campaign management"}
+               item6={"Spam monitoring"}
+               item7={"Monthly progress report"}
+               item8={"Reputation management"}
+               item9={"Social account setup"}
+               item10={"Content creation"}
+               item11={"Social media hearing"}
+               item12={"Query and comments reply"}
                
            />
             

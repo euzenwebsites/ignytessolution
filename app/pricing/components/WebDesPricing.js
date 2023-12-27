@@ -20,43 +20,71 @@ const WebDesPricing = () => {
     <div className="flex flex-row max-sm:flex-col gap-8 justify-center mt-6 relative mb-20">
             <PricingTestimonial
                 package={"PRO"}
-                price={"$300"}
+                price={"$350"}
                 color={"#D9D9D9"}
-               slogan={"Wordpress"}
+               slogan={"Basic Website Package"}
                item1={"High End Design"}
                item2={"Custom UI/UX"}
                item3={"3 page Website"}
                item4={"Complete W3C Certified HTML"}
                item5={"Complete Deployment"}
-               item6={"100% Ownership Rights"}
+               item6={"2 Stock Images "}
+               item7={"1 jQuery Slider Banner "}
+               item8={"Contact/Query Form"}
+               item9={"Unlimited Revisionss"}
+               item10={"100% Ownership Rights"}
+               item11={"100% Satisfaction Guarantee"}
+               item12={"100% Unique Design Guarantee "}
+
+
                
                 
             />
             <PricingTestimonial
                 package={"PREMIUM"}
-                price={"$450"}
+                price={"$550"}
                color={"#D9D9D9"}
                slogan={"Startup Website Package"}
-               item1={"Wordpress"}
-               item2={"Custom UI/UX"}
-               item3={"5 page Website"}
-               item4={"Complete W3C Certified HTML"}
-               item5={"5 stock Images"}
-               item6={"FREE Google Friendly Sitemap"}
+               item1={"Word press"}
+               item2={"High End Design"}
+               item3={"Custom UI/UX"}
+               item4={"5 Page Website"}
+               item5={"5 Stock Images "}
+               item6={"3 Banner Design "}
+               item7={"1 jQuery Slider Banner "}
+               item8={"Free Google Friendly Sitemap"}
+               item9={"Contact/Query Form"}
+               item10={"Unlimited Revisions"}
+               item11={"Complete W3C Certified HTML"}
+               item12={"Complete Deployment "}
+               item13={"Dedicated Accounts Manager "}
+               item14={"100% Ownership Rights"}
+               item15={"100% Satisfaction Guarantee "}
+               item16={"100% Unique Design Guarantee "}
                
            />
            <PricingTestimonial
                 package={"ENTERPRISE"}
-                price={"$850"}
+                price={"$950"}
                color={"#D9D9D9"}
                slogan={"Professional Website Package"}
-               item1={"High End Design"}
-               item2={"Custom UI/UX"}
-               item3={"10 Unique page Website"}
-               item4={"CMS/ Pages Website"}
-               item5={"5 banner Design"}
-               item6={"FREE Google Friendly Sitemap"}
-               item7={"Complete Deployment"}
+               item1={"Word press"}
+               item2={"High End Design"}
+               item3={"Custom UI/UX"}
+               item4={"10 Unique Page Website  "}
+               item5={"CMS / Admin Panel Support"}
+               item6={"8 Stock Images"}
+               item7={"5 Banner Designs "}
+               item8={"1 jQuery Slider Banner "}
+               item9={"Free Google Friendly Sitemap "}
+               item10={"Contact/Query Form"}
+               item11={"Unlimited Revisions "}
+               item12={"Complete W3C Certified HTML"}
+               item13={"Complete Deployment "}
+               item14={"Dedicated Accounts Manager"}
+               item15={"100% Ownership Rights"}
+               item16={"100% Satisfaction Guarantee "}
+               item17={"100% Unique Design Guarantee "}
                
            />
             
