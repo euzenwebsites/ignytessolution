@@ -4,7 +4,7 @@ import Image from 'next/image';
 import crossIcon from '../../../public/icon/cross.png';
 import { useForm } from 'react-hook-form';
 import "./modal.css"
-
+  
 const Modal = ({ isOpen, closeModal }) => {
   const {
     register,
@@ -62,8 +62,24 @@ const Modal = ({ isOpen, closeModal }) => {
                 <input
                   {...register('email', { required: 'This field is required' })}
                   type="email"
-                  placeholder="E-mail"
+                  placeholder="Email"
                   className="form-entry"
+                />
+                {errors.email && <span>{errors.email.message}</span>}
+
+                <input
+                  {...register('subject', { required: 'This field is required' })}
+                  type="text"
+                  placeholder="Subject"
+                  className="form-entry"
+                />
+                {errors.email && <span>{errors.email.message}</span>}
+
+                <input
+                  {...register('phone', { required: 'This field is required' })}
+                  type="text"
+                  placeholder="Phone No:"
+                  className="form-entry"  
                 />
                 {errors.email && <span>{errors.email.message}</span>}
 
@@ -74,7 +90,7 @@ const Modal = ({ isOpen, closeModal }) => {
                 />
                 {errors.message && <span>{errors.message.message}</span>}
 
-                <button type="submit" className="form-btn">
+                <button type="submit" className="form-btn" id='form-button'>
                   Submit
                 </button>
               </form>
